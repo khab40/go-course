@@ -28,3 +28,19 @@ go.work
 # OS
 .DS_Store
 *.log
+
+# Go binaries
+*.exe
+*.out
+*.test
+*.app
+
+# Mac/Linux binaries without extension
+main
+go
+bin/
+build/
+dist/
+
+# Go build cache
+*.log
